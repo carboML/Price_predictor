@@ -1,5 +1,5 @@
 
-# Price predictor
+# Second hand car Price predictor
 
 ### Project overview
 Buying a brand new car is not always the best option. There are some people out there that like to change cars over the months. Others just don't have enough money to buy a brand new car. There are also cases where someone has just gotten their driver's license and prefers to learn how to drive in a second-hand car.
