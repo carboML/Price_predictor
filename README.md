@@ -64,8 +64,12 @@ The librarys used in this project are:
 * `sklearn`
 
 ## File descriptions
+There are 3 jupyter notebooks and a data folder. The data folder contains all the .csv needed to build this model. 
+The notebooks:
 
-Thre are only 2 main files, the first one, a jupyter notebook with all the project. Along this one, you will find a .py file, inside you will find some functions I created to be used in this project.
+1.- ETL pipeline: Contains the data preparation.
+2.- Data visualitation: Contains the different representations of the data
+3.- Model 
 
 ## Author 
 Pablo Carbonero Álvarez
