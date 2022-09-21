@@ -68,8 +68,8 @@ There are 3 jupyter notebooks and a data folder. The data folder contains all th
 The notebooks:
 
 1.- ETL pipeline: Contains the data preparation.
-2.- Data visualitation: Contains the different representations of the data
-3.- Model 
+2.- Data visualitation: Contains the different representations of the data.
+3.- Model fit: Contains the comparation and different fit of model to fin the optimal.
 
 ## Author 
 Pablo Carbonero Álvarez
