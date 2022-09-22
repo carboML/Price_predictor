@@ -5,6 +5,8 @@
 Buying a brand new car is not always the best option. There are some people out there that like to change cars over the months. Others just don't have enough money to buy a brand new car. There are also cases where someone has just gotten their driver's license and prefers to learn how to drive in a second-hand car.
 My goal is to estimate the price of a car based on certain features. This way, we can know if the car we want to buy is cheap or expensive.
 
+For an extensive explanation see my blog: https://carboml.github.io/
+
 ### Problem statement
 
 The second-hand market is full of options when buying a car. The price of this market is controlled by the seller. This way, the prices may vary a lot. Some people may find it hard to decide if the price of a car they are looking to buy is fair or not. My goal is to help those people by training a model that estimates the price of a car based on its features.
@@ -34,15 +36,7 @@ I get the representation of:
 
 ## Results
 
-After fitting and comparing 2 different regression models, `linearRegressor`and `KNeigbors` in a 5 step hyperparameter tunning process, I came up with one conclusion.
-
-The best way to predict a car price is to
-
-
-- 1.-Ignore the car model when training the model. This makes the algorithm way more complex without an improvement in performance.
-- 2.-Use linear regression model
-- 3.-Use a polynomial factor of 2.
-Thanks to the model, we are able to predict the price of a not yet seen car with 87% accuracy.
+After fitting and comparing 3 different regression models, `linearRegressor`and `KNeigbors`  and `Decission tree regression ` the best model in this case is `linearRegressor`.
 
 ## Conclusion
 
